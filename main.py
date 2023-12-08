@@ -75,9 +75,10 @@ def summarize_url(query: URLQuery):
     else:
         return {"error": "Failed to scrape the website or no content to summarize"}
 
-# Uvicorn main to run the app
+'''Uvicorn main to run the app
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
 
 # run locally $ uvicorn main:app --reload
+'''
